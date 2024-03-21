@@ -1,0 +1,47 @@
+## 0701- Write a program which print below outout when program run/executed using forEach loop.
+void main()
+{
+  List<String> number=['one','two','three'];
+  number.forEach((number) 
+  {   print(number); });
+  
+}
+
+OUTPUT:  one
+two
+three
+
+## 0702- Write a program to print 1 to 10 numbers using forEach loop.
+void main() {
+  List<int> number = [1,2,3,4,5,6,7,8,9,10];
+  number.forEach((number) {
+    print(number);
+  });
+}
+
+OUTPUT: 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+## 0703- Write a program to Print each name of football players Of List Using Foreach loop.
+void main() {
+  List<String> number = ['ronaldo','messi','Neymar','Hazard'];
+  
+  print('print all players name like:');
+  number.forEach((number) {
+    print(number);
+  });
+}
+
+OUTPUT:  print all players name like:
+ronaldo
+messi
+Neymar
+Hazard

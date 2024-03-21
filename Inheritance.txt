@@ -1,0 +1,194 @@
+## 1101-  Write a program which print below outout when program run/executed(Single Inheritance).
+Test Data String: 999,898
+void main()
+{
+  var number=new b();
+  number.display_x();
+  number.display_y();
+}
+
+class a
+{
+  int x=999;
+  
+  void display_x()
+  {
+    print(x);
+  }
+}
+
+class b extends a
+{
+  int y=898;
+  
+  void display_y()
+  {
+    print(y);
+  }
+}
+
+OUTPUT:999
+898
+
+## 1102-  Write a program which print below outout when program run/executed(Single Inheritance).
+Test Data String: Riya,Jinal
+void main()
+{
+  b number=new b();
+  number.display_x();
+  number.display_y();
+}
+
+class a
+{
+  String x='Riya';
+  
+  void display_x()
+  {
+    print(x);
+  }
+}
+
+class b extends a
+{
+  String y='Jinal';
+  
+  void display_y()
+  {
+    print(y);
+  }
+}
+
+OUTPUT: Riya
+Jinal
+
+## 1103-  Write a program which print below output when program run/executed(Multiple Inheritance).
+Test Data String: kiya,Jinal,anjali
+void main()
+{
+  c number=new c();
+  number.display_x();
+  number.display_y();
+  number.display_z();
+}
+
+class a
+{
+  String x='kiya';
+  
+  void display_x()
+  {
+    print(x);
+  }
+}
+
+class b extends a
+{
+  String y='Jinal';
+  
+  void display_y()
+  {
+    print(y);
+  }
+}
+
+class c extends b
+{
+  String z='anjali';
+  
+  void display_z()
+  {
+    print(z);
+  }
+}
+
+OUTPUT:  kiya
+Jinal
+anjali
+
+## 1104-  Write a program which print below outout when program run/executed(Multiple Inheritance).
+Test Data String: City Name
+void main()
+{
+  c number=new c();
+  number.display_x();
+  number.display_y();
+  number.display_z();
+}
+
+class a
+{
+  String x='bhavnagar';
+  
+  void display_x()
+  {
+    print(x);
+  }
+}
+
+class b extends a
+{
+  String y='surat';
+  
+  void display_y()
+  {
+    print(y);
+  }
+}
+
+class c extends b
+{
+  String z='rajkot';
+  
+  void display_z()
+  {
+    print(z);
+  }
+}
+
+OUTPUT:  bhavnagar
+surat
+rajkot
+
+##  1105-  Write a program which print below outout when program run/executed(Hierarchical Inheritance).
+Test Data String: Bank name
+void main()
+{
+  b number1=new b();
+   number1.display_x();
+  c number2=new c();
+   number2.display_x();
+}
+
+class a
+{
+  String x='Axis';
+  
+  void display_x()
+  {
+    print(x);
+  }
+}
+
+class b extends a
+{
+  String y='BBB';
+  
+  void display_y()
+  {
+    print(y);
+  }
+}
+
+class c extends a
+{
+  String z='AAA';
+  
+  void display_z()
+  {
+    print(z);
+  }
+}
+
+OUTPUT:  Axis
+Axis

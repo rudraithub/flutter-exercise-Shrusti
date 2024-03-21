@@ -1,0 +1,95 @@
+## 0101-Print a String - Write a program which print below outout when program run/executed.
+void main()
+{
+  String n='Rudra IT Hub';
+  print(n);
+}
+
+OUTPUT: Rudra IT Hub
+
+## 0102-length of a String - Write a program to find a lenght of a string and disply lenthg when program run/executed.
+void main()
+{
+  String n='Welcome to Rudra IT Hub';
+  print('Length of the string is ${n.length}');
+}
+
+OUTPUT:Length of the string is 23
+
+## 0103-join a string - Write a program to join two string.
+void main()
+{
+  String n='Hello';
+  String a='World';
+  
+  print(n + a);
+}
+
+OR
+
+void main()
+{
+  String n='Hello';
+  String a='World';
+  
+  print('$n $b');
+}
+
+OUTPUT: HelloWorld
+OUTPUT: Hello World
+
+## 0104 - write a program print getting the first element of the String.
+void main()
+{
+ String n='Hello';
+  print(n[0]);
+}
+
+OUTPUT:H
+
+## 0105 - write a program separate individual characters from a string.
+void main() {
+  String n = "Rudra IT Hub";
+  print(n.split(""));
+}
+
+OUTPUT:  
+[R, u, d, r, a,  , I, T,  , H, u, b, ., c, o, m]
+
+
+## 0106 - write a program to print individual characters of a string in reverse order.
+void main()
+{
+  String str='Rudra';
+
+  List<String> characters = str.split('');
+
+  String reversedString = characters.reversed.join(); 
+  
+  print(reversedString);
+}
+
+OUTPUT: arduR
+
+## 0107 - write a program to count the total number of words in a string.
+void main() {
+  String sec = 'This is Rudra IT Hub.com';
+  List data = sec.split(' ');
+  print(data.length);
+}
+OUTPUT:  5
+ 
+## 0108 - write a program to to convert a string to lowercase.
+void main()
+{
+  String n = "WELCOME TO RUDRA IT HUB";
+  
+  String lowercaseString = n.toLowerCase();
+  
+  print("Original String: $n");
+  print("Lowercase String: $lowercaseString");
+}
+
+OUTPUT: Original String: WELCOME TO RUDRA IT HUB
+			Lowercase String: welcome to rudra it hub
+  

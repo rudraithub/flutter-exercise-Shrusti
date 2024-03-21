@@ -1,0 +1,19 @@
+## 1301- Write a program to print below output using getter-setter in class.
+
+Test Data String: Ruhi
+
+
+void main()
+{
+  a obj=new a();
+  obj.name='Ruhi';
+  print(obj.name);
+}
+class a
+{
+  var name;
+  
+}
+
+
+OUTPUT:  Ruhi

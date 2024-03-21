@@ -1,0 +1,210 @@
+## 0301-write a program to perform all Arithmetic Operations.
+void main()
+{  
+  int n1 = 56;  
+  int n2 = 80;  
+    
+  print("Addition = ${n1+n2}");  
+  print("Subtraction = ${n1-n2}");  
+  print("Multiplication = ${n1*n2}");  
+  print("Division = ${n1/n2}");   
+  print("Module = ${n1%n2}");     
+}
+
+OUTPUT:Addition = 136
+Subtraction = -24
+Multiplication = 4480
+Division = 0.7
+Module = 56
+
+## 0302-write a program to perform all Relational Operations.
+void main()
+{
+    
+  int x = 12;  
+  int y = 20;  
+    
+    print("x is less than and equal to y: ${x <= y}");
+   print("x is less than y: ${x < y}");
+   print("x is greater than y: ${x > y}");
+   print("x is greater than and equal to y: ${x >= y}");
+   print("x is equal to y:  ${x == y}");
+   print("x is not equal to y: ${x != y}");
+}
+
+OUTPUT: x is less than and equal to y: true
+x is less than y: true
+x is greater than y: false
+x is greater than and equal to y: false
+x is equal to y:  false
+x is not equal to y: true
+
+## 0303-write a program to perform all Assignment Operations.
+void main()
+{
+    
+  int a = 52;  
+  int b = 45;  
+  
+  a+=b;  
+  print("Add and Assign = ${a}");  
+  a-=b;  
+  print("Subtract and Assign = ${a}");  
+  a*=b;  
+  print("Multiply and Assign = ${a}");
+  a~/=b;  
+  print("Divide and Assign = ${a}");  
+  a%=b;  
+  print("Mod and Assign = ${a}"); 
+}
+
+OUTPUT:Add and Assign = 97
+Subtract and Assign = 52
+Multiply and Assign = 2340
+Divide and Assign = 52
+Mod and Assign = 7
+
+## 0304- Write a program to perform all arithmetic operator(Ex:2).
+void main()
+{  
+  double a = 99;  
+  double b = 12;  
+  double c; 
+  c=a+b;
+  print("Addition = $c"); 
+  c=a-b;
+  print("Subtraction = $c");  
+  c=a*b;
+  print("Multiplication = $c");  
+  c=a~/b;
+  print("Division = $c"); 
+  c=a%b;
+  print("Module = $c");     
+}
+
+OUTPUT: Addition = 111
+Subtraction = 87
+Multiplication = 1188
+Division = 8.25
+Module = 3
+
+## 0305- Write a program to perform all assignment operator(Ex:3).
+void main()
+{  
+      double a = 25;  
+      double b = 8; 
+      double c,d,e;
+      double f;
+  c=a+=b;  
+  print("sum(Addition) = $c");  
+  d=(a-=b);  
+  print("difference(Subtraction) = $d");  
+  e=a*=b;  
+  print("product(multiply) = $e");
+  f=(a%=b);  
+  print("remainder(Module) = $f");  
+}
+
+OUTPUT:sum(Addition) = 33
+difference(Subtraction) = 25
+product(multiply) = 200
+remainder(Module) = 0
+
+
+## 0306- Write a program to perform all logical operator.
+void main()
+{  
+    int x=22;
+    int y=39;
+  
+  if(x>20 && y<40)
+  {
+    print('True');
+  }
+  else
+  {
+    print('False');
+  }
+}                                OUTPUT:  True
+
+void main()
+{  
+    int x=22;
+    int y=39;
+  
+  if(x>25 || y<40)
+  {
+    print('True');
+  }
+  else
+  {
+    print('False');
+  }
+}                              OUTPUT:  True
+
+void main()
+{  
+    int x=22;
+    int y=40;
+  
+  if(x!=22 || y==30)
+  {
+    print('True');
+  }
+  else
+  {
+    print('False');
+  }
+}                         OUTPUT:   False
+
+## 0307- WAP structure swap two number and interchange/swap of that number 
+void main()
+{  
+    int x=10;
+    int y=20;
+  
+    print('After :');
+    print('Number1:$x');
+    print('Number:$y');
+    
+  x=x+y;
+  y=x-y;
+  x=x-y;
+  
+  print('Before :');
+  print('Number1:$x');
+  print('Number2:$y');  
+}
+
+OUTPUT:After :
+Number1:10
+Number:20
+Before :
+Number1:20
+Number2:10
+
+## 0308- WAP structure swap two number and interchange/swap of that number without using 3nd variable
+void main()
+{  
+    int x=10;
+    int y=20;
+    int c;
+    print('After :');
+    print('Number1:$x');
+    print('Number:$y');
+    
+  c=x;
+  x=y;
+  y=c;
+  
+  print('Before :');
+  print('Number1:$x');
+  print('Number2:$y');  
+}
+
+OUTPUT:After :
+Number1:10
+Number:20
+Before :
+Number1:20
+Number2:10
