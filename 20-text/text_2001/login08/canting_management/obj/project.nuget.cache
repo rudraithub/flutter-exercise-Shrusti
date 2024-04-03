@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "GFIWU/DGMVY2vaHXCZ4rkT0Z/QlQGuNgCBmzkyaOcV3T/R/BYQP9H/vibtpoGZHPzIb3sEh/0rqEnh2GUjwfXg==",
+  "success": true,
+  "projectFilePath": "E:\\login08\\canting_management\\canting_management.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jemit\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.5\\guna.ui2.winforms.2.0.4.5.nupkg.sha512",
+    "C:\\Users\\jemit\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\jemit\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
