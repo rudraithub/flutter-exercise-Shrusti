@@ -4,4 +4,6 @@ void main()
   print(n);
 }
 
+//output
+
 OUTPUT: Rudra IT Hub
